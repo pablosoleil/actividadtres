@@ -1,0 +1,40 @@
+.cuadro
+{
+	position: absolute;
+	width: 37%;
+	height: 37%;
+	top: 25%;
+	left: 30%;
+		background-color: #89FFBE;
+  border: orange 5px solid;
+  	font-family:castellar;
+font-size: 50px;
+color:orange;
+font-style: italic;
+text-align: center;
+text-shadow: 
+
+}
+
+#mousePositions{
+	border:solid #000000 1px;
+	color:#000000;
+	font-family: arial;
+	font-size: 20px;
+	height:300px;
+	width: 150px;
+	overflow: auto;
+
+}
+
+.h1
+{
+	font-family:castellar;
+font-size: 30px;
+background-color:orange;
+font-style: italic;
+text-shadow:
+height:25px;
+width: 350px;
+left: 23px;
+}

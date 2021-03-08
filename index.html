@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio 3</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<div id="mousePositions"></div>
+</head>
+      
+      <body onmousemove="posicion(event)">
+
+      	<div class="h1"><center><h1>trabajo 3</h1></center></div>
+              
+
+
+	<div class="cuadro" id="cuadro"></div>
+
+	<script>
+
+	function posicion(event)
+	{
+		var x= event.clientX;
+		var y= event.clientY;
+		var mousePositions=document.getElementById('mousePositions');
+		mousePositions.innerHTML='X:' +x+'Y:' +y;
+
+		if (y>=164&&y<=414  &&  x>=411&&x<=924)
+	{
+		cuadro.innerHTML='estamos dentro del cuadro :)';
+
+	}
+	else
+    {
+		
+	  cuadro.innerHTML='estamos afuera del cuadro :(';
+
+	}
+	}
+	
+
+	</script>
+
+
+</body>
+</html>
